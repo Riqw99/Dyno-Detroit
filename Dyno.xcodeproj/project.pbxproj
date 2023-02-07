@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09093F42282998F6005B89E0 /* ProfileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09093F41282998F6005B89E0 /* ProfileList.swift */; };
+		09093F44282AC0FC005B89E0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09093F43282AC0FC005B89E0 /* WebView.swift */; };
+		09093F46282ADCB3005B89E0 /* DynoWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09093F45282ADCB3005B89E0 /* DynoWebsite.swift */; };
+		09093F4A282AECE7005B89E0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09093F49282AECE7005B89E0 /* ChatView.swift */; };
+		09093F4E282BEF9F005B89E0 /* CardModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09093F4D282BEF9F005B89E0 /* CardModal.swift */; };
+		09093F50282C085D005B89E0 /* sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09093F4F282C085D005B89E0 /* sample.swift */; };
+		093593F627FB31BB006B15A0 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093593F527FB31BB006B15A0 /* Page1.swift */; };
+		094244BC27FB1E480039D79B /* DynoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094244BB27FB1E480039D79B /* DynoApp.swift */; };
+		094244BE27FB1E480039D79B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094244BD27FB1E480039D79B /* ContentView.swift */; };
+		094244C027FB1E490039D79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094244BF27FB1E490039D79B /* Assets.xcassets */; };
+		094244C327FB1E490039D79B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094244C227FB1E490039D79B /* Preview Assets.xcassets */; };
+		094244CA27FB263A0039D79B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094244C927FB263A0039D79B /* CardView.swift */; };
+		096C7402283E78DF00FA3D34 /* ColorExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C7401283E78DF00FA3D34 /* ColorExtenstion.swift */; };
+		096C7408284014A100FA3D34 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C7407284014A100FA3D34 /* ProfilePage.swift */; };
+		096C740C2857882200FA3D34 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C740B2857882200FA3D34 /* Onboarding.swift */; };
+		09B73A7127FCD4D5000162D8 /* NewSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B73A7027FCD4D5000162D8 /* NewSplash.storyboard */; };
+		09D25C982833EF7F00D098D3 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D25C972833EF7F00D098D3 /* PhotoPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09093F41282998F6005B89E0 /* ProfileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileList.swift; sourceTree = "<group>"; };
+		09093F43282AC0FC005B89E0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		09093F45282ADCB3005B89E0 /* DynoWebsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoWebsite.swift; sourceTree = "<group>"; };
+		09093F49282AECE7005B89E0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		09093F4D282BEF9F005B89E0 /* CardModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModal.swift; sourceTree = "<group>"; };
+		09093F4F282C085D005B89E0 /* sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample.swift; sourceTree = "<group>"; };
+		093593F527FB31BB006B15A0 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		094244B827FB1E480039D79B /* Dyno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094244BB27FB1E480039D79B /* DynoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoApp.swift; sourceTree = "<group>"; };
+		094244BD27FB1E480039D79B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		094244BF27FB1E490039D79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094244C227FB1E490039D79B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		094244C927FB263A0039D79B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		096C7401283E78DF00FA3D34 /* ColorExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtenstion.swift; sourceTree = "<group>"; };
+		096C7407284014A100FA3D34 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		096C740B2857882200FA3D34 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		09B73A7027FCD4D5000162D8 /* NewSplash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewSplash.storyboard; sourceTree = "<group>"; };
+		09D25C972833EF7F00D098D3 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094244B527FB1E480039D79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094244AF27FB1E480039D79B = {
+			isa = PBXGroup;
+			children = (
+				094244BA27FB1E480039D79B /* Dyno */,
+				094244B927FB1E480039D79B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		094244B927FB1E480039D79B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094244B827FB1E480039D79B /* Dyno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094244BA27FB1E480039D79B /* Dyno */ = {
+			isa = PBXGroup;
+			children = (
+				094244BB27FB1E480039D79B /* DynoApp.swift */,
+				094244BD27FB1E480039D79B /* ContentView.swift */,
+				096C7401283E78DF00FA3D34 /* ColorExtenstion.swift */,
+				096C740B2857882200FA3D34 /* Onboarding.swift */,
+				09093F49282AECE7005B89E0 /* ChatView.swift */,
+				09B73A7027FCD4D5000162D8 /* NewSplash.storyboard */,
+				093593F527FB31BB006B15A0 /* Page1.swift */,
+				096C7407284014A100FA3D34 /* ProfilePage.swift */,
+				09093F41282998F6005B89E0 /* ProfileList.swift */,
+				09D25C992833F19000D098D3 /* Data Stuff */,
+				09093F4F282C085D005B89E0 /* sample.swift */,
+				09093F43282AC0FC005B89E0 /* WebView.swift */,
+				09093F45282ADCB3005B89E0 /* DynoWebsite.swift */,
+				094244C927FB263A0039D79B /* CardView.swift */,
+				09D25C972833EF7F00D098D3 /* PhotoPicker.swift */,
+				09093F4D282BEF9F005B89E0 /* CardModal.swift */,
+				094244BF27FB1E490039D79B /* Assets.xcassets */,
+				094244C127FB1E490039D79B /* Preview Content */,
+			);
+			path = Dyno;
+			sourceTree = "<group>";
+		};
+		094244C127FB1E490039D79B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				094244C227FB1E490039D79B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09D25C992833F19000D098D3 /* Data Stuff */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Stuff";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094244B727FB1E480039D79B /* Dyno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094244C627FB1E490039D79B /* Build configuration list for PBXNativeTarget "Dyno" */;
+			buildPhases = (
+				094244B427FB1E480039D79B /* Sources */,
+				094244B527FB1E480039D79B /* Frameworks */,
+				094244B627FB1E480039D79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dyno;
+			productName = Dyno;
+			productReference = 094244B827FB1E480039D79B /* Dyno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094244B027FB1E480039D79B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					094244B727FB1E480039D79B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 094244B327FB1E480039D79B /* Build configuration list for PBXProject "Dyno" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094244AF27FB1E480039D79B;
+			productRefGroup = 094244B927FB1E480039D79B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094244B727FB1E480039D79B /* Dyno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094244B627FB1E480039D79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B73A7127FCD4D5000162D8 /* NewSplash.storyboard in Resources */,
+				094244C327FB1E490039D79B /* Preview Assets.xcassets in Resources */,
+				094244C027FB1E490039D79B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094244B427FB1E480039D79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096C7402283E78DF00FA3D34 /* ColorExtenstion.swift in Sources */,
+				093593F627FB31BB006B15A0 /* Page1.swift in Sources */,
+				096C7408284014A100FA3D34 /* ProfilePage.swift in Sources */,
+				09D25C982833EF7F00D098D3 /* PhotoPicker.swift in Sources */,
+				09093F44282AC0FC005B89E0 /* WebView.swift in Sources */,
+				094244BE27FB1E480039D79B /* ContentView.swift in Sources */,
+				09093F46282ADCB3005B89E0 /* DynoWebsite.swift in Sources */,
+				09093F4A282AECE7005B89E0 /* ChatView.swift in Sources */,
+				09093F50282C085D005B89E0 /* sample.swift in Sources */,
+				094244CA27FB263A0039D79B /* CardView.swift in Sources */,
+				096C740C2857882200FA3D34 /* Onboarding.swift in Sources */,
+				094244BC27FB1E480039D79B /* DynoApp.swift in Sources */,
+				09093F4E282BEF9F005B89E0 /* CardModal.swift in Sources */,
+				09093F42282998F6005B89E0 /* ProfileList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		094244C427FB1E490039D79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		094244C527FB1E490039D79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094244C727FB1E490039D79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dyno/Preview Content\"";
+				DEVELOPMENT_TEAM = LWZGUMK66X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = NewSplash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Dyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094244C827FB1E490039D79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dyno/Preview Content\"";
+				DEVELOPMENT_TEAM = LWZGUMK66X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = NewSplash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Dyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094244B327FB1E480039D79B /* Build configuration list for PBXProject "Dyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094244C427FB1E490039D79B /* Debug */,
+				094244C527FB1E490039D79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094244C627FB1E490039D79B /* Build configuration list for PBXNativeTarget "Dyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094244C727FB1E490039D79B /* Debug */,
+				094244C827FB1E490039D79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094244B027FB1E480039D79B /* Project object */;
+}
